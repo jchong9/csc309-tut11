@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }) => {
             }   
         }
 
-        fetchUser();
+        fetchUser(token);
     }, [])
 
     /*
